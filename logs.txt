@@ -1,0 +1,15 @@
+02/09/2018 ~>~> update func.js, package.json, data.json, server.js
+	   ~>~> get api key google custom search AIzaSyBegGqjcpeRo7SSqH8iVsKlyyyl39N2OIM
+		~~> for html 
+			<script>
+			  (function() {
+ 			   	var cx = '008043090857058435387:x2fxe4tebxw';
+ 			   	var gcse = document.createElement('script');
+  			   	gcse.type = 'text/javascript';
+  			  	 gcse.async = true;
+   			  	 gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+   			   	var s = document.getElementsByTagName('script')[0];
+    			   	s.parentNode.insertBefore(gcse, s);
+  			  })();
+			</script>
+			<gcse:search></gcse:search>
